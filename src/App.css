@@ -1,0 +1,62 @@
+body,
+button {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  display: flex;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  min-width: 100%;
+}
+
+.accordion__item-icon{
+  display: flex;
+  margin-right: 0px;
+}
+.wrapper {
+  margin-top: 5%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+
+.accordion__item {
+  width: 100%;
+}
+
+.accordion__item-title-text {
+  width: 100%;
+}
+
+.accordion-item-contents {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.fade {
+  background-color: cornflowerblue;
+  color: white;
+  transition: background-color 1s;
+}
+
+.fade:hover{
+  background-color: lightseagreen;
+}
